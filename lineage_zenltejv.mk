@@ -42,6 +42,6 @@ PRODUCT_MODEL := SM-G928F
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=zenltexx \
     TARGET_DEVICE=zenlte \
-    PRIVATE_BUILD_DESC="zenltexx-user 7.0 NRD90M G928FXXU5CRI1 release-keys"
+    PRIVATE_BUILD_DESC="zenltexx-user 7.0 NRD90M G928FXXS3CQL2 release-keys"
 
-BUILD_FINGERPRINT := "samsung/zenltexx/zenlte:7.0/NRD90M/G928FXXU5CRI1:user/release-keys"
+BUILD_FINGERPRINT := "samsung/zenltexx/zenlte:7.0/NRD90M/G928FXXS3CQL2:user/release-keys"
