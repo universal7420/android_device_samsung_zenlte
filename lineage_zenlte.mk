@@ -26,15 +26,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from zenltejv device
-$(call inherit-product, device/samsung/zenltejv/device.mk)
+# Inherit from zenlte device
+$(call inherit-product, device/samsung/zenlte/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_zenltejv
-PRODUCT_DEVICE := zenltejv
+PRODUCT_NAME := lineage_zenlte
+PRODUCT_DEVICE := zenlte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-G928F

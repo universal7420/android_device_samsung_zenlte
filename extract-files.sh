@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=zenltejv
+export DEVICE=zenlte
 export DEVICE_COMMON=noblelte-common
 export VENDOR=samsung
 

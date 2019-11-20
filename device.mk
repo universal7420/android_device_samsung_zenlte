@@ -14,18 +14,16 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/zenltejv
+LOCAL_PATH := device/samsung/zenlte
 
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Audio
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio_policy.conf:system/vendor/etc/audio_policy.conf \
-    $(LOCAL_PATH)/configs/mixer_paths_0-audience.xml:system/vendor/etc/mixer_paths_0-audience.xml
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/zenlte/system.prop
 
 # Inherit from noblelte-common
 $(call inherit-product, device/samsung/noblelte-common/noblelte-common.mk)
 
 # Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/nobleltejv/nobleltejv-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/noblelte/noblelte-vendor.mk)

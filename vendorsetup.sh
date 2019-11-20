@@ -1,1 +1,1 @@
-add_lunch_combo lineage_zenltejv-userdebug
+add_lunch_combo lineage_zenlte-userdebug
