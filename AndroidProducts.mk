@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_zenlte.mk
+    $(LOCAL_DIR)/havoc_zenlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_zenlte-user \
-    lineage_zenlte-userdebug \
-    lineage_zenlte-eng
+    havoc_zenlte-user \
+    havoc_zenlte-userdebug \
+    havoc_zenlte-eng
