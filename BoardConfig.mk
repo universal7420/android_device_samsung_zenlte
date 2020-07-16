@@ -29,9 +29,6 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := zenlte,zenltedd,zenltedv,zenltejv,zenltektt,zenltelgt,zenlteskt,zenltezt,zenltexx
 
-# Bluetooth
-BOARD_BLUETOOTH_OID_BUILDCFG_INCLUDE_DIR := device/samsung/zenlte/bluetooth
-
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/zenlte/include
 
