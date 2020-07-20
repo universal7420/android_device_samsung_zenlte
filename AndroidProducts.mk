@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_zenlte.mk
+    $(LOCAL_DIR)/bliss_zenlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_zenlte-user \
-    lineage_zenlte-userdebug \
-    lineage_zenlte-eng
+    bliss_zenlte-user \
+    bliss_zenlte-userdebug \
+    bliss_zenlte-eng
